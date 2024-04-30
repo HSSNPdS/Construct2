@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 1</name>
+    <events>
+        <variable constant="0" name="Vida_bolinha" sid="851493889759070" static="0" type="number">3</variable>
+        <event-block sid="532870959251310">
+            <conditions>
+                <condition id="2" name="Key is down" sid="541612196473796" type="Keyboard">
+                    <param id="0" name="Key">39</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="249166369089710" type="Player">
+                    <param id="0" name="Control">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="650733240446074">
+            <conditions>
+                <condition id="2" name="Key is down" sid="967021143829958" type="Keyboard">
+                    <param id="0" name="Key">37</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action behavior="8Direction" id="7" name="Simulate control" sid="649286489333718" type="Player">
+                    <param id="0" name="Control">0</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="647881112009973">
+            <conditions>
+                <condition id="0" name="On collision with another object" sid="640140792967228" type="Sprite">
+                    <param id="0" name="Object">B_Verde</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-11" name="Add to" sid="227369361352035" type="B_Verde">
+                    <param id="0" name="Instance variable">acertos</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="634423130854249">
+            <conditions>
+                <condition id="-7" name="Compare instance variable" sid="659070213915502" type="B_Verde">
+                    <param id="0" name="Instance variable">acertos</param>
+                    <param id="1" name="Comparison">5</param>
+                    <param id="2" name="Value">2</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="637462624654068" type="B_Verde" />
+            </actions>
+        </event-block>
+        <event-block sid="597709761825247">
+            <conditions>
+                <condition id="-4" name="Is outside layout" sid="935190511731033" type="Sprite" />
+            </conditions>
+            <actions>
+                <action id="-9" name="Destroy" sid="511783941113776" type="Sprite" />
+                <action id="-11" name="Subtract from" sid="506444303633428" type="System">
+                    <param id="0" name="Variable">Vida_bolinha</param>
+                    <param id="1" name="Value">1</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="799236021128532">
+            <conditions>
+                <condition id="-19" name="On destroyed" sid="137142531875455" type="Sprite" />
+            </conditions>
+            <actions>
+                <action id="-3" name="Create object" sid="616567898120937" type="System">
+                    <param id="0" name="Object to create">Sprite</param>
+                    <param id="1" name="Layer">0</param>
+                    <param id="2" name="X">1248</param>
+                    <param id="3" name="Y">1024</param>
+                </action>
+            </actions>
+        </event-block>
+        <event-block sid="921794212944187">
+            <conditions>
+                <condition id="-14" name="Compare variable" sid="230320198812499" type="System">
+                    <param id="0" name="Variable">Vida_bolinha</param>
+                    <param id="1" name="Comparison">3</param>
+                    <param id="2" name="Value">0</param>
+                </condition>
+            </conditions>
+            <actions>
+                <action id="-26" name="Restart layout" sid="929735419939325" type="System" />
+                <action id="-21" name="Reset global variables" sid="876262309732549" type="System" />
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
