@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PersistableFontDetails xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Letterset>ABCDEFGHIJKLMNOPQRSTUVWXYZÁÀÃÂÉÈÊÍÌÎÓÒÕÔÚÙÛÇçabcdefghijklmnopqrstuvwxyzáàãâéèêíìîóòõôúùû0123456789.,;:?!-_~#"'&amp;()[]|`\/@°+=*$£€&lt;&gt;</Letterset>
+  <AdjustHeight>1</AdjustHeight>
+  <AdjustWidth>1</AdjustWidth>
+  <SampleText> Ççabcdefghijklmnopqrstuvwxyzáàãâéèêíìîóòõôúùû0123456789.,;:?!-_~#"'&amp;()[]|`\/@°+=*$£€&lt;&gt;</SampleText>
+  <ShiftHorz>8</ShiftHorz>
+  <ShiftVert>6</ShiftVert>
+  <ShowGrid>true</ShowGrid>
+  <ShowBoundary>false</ShowBoundary>
+  <Size>36</Size>
+  <StrikeOut>false</StrikeOut>
+  <Underline>false</Underline>
+  <IsFill>true</IsFill>
+  <IsOutlineOne>true</IsOutlineOne>
+  <IsOutlineTwo>false</IsOutlineTwo>
+  <IsShadow>false</IsShadow>
+  <OutlineOneWidth>5</OutlineOneWidth>
+  <OutlineTwoWidth>2</OutlineTwoWidth>
+  <ShadowWidth>4</ShadowWidth>
+  <ShadowOffsetX>4</ShadowOffsetX>
+  <ShadowOffsetY>4</ShadowOffsetY>
+  <FontStyleDisplayName>Regular</FontStyleDisplayName>
+  <Height>57</Height>
+  <Width>46</Width>
+  <FontFamilyName>CC Jim Lee</FontFamilyName>
+  <FontStyleName>Normal</FontStyleName>
+  <FontStretchName>Normal</FontStretchName>
+  <FontWeightName>Normal</FontWeightName>
+  <FillColourName>#FF000000</FillColourName>
+  <OutlineOneColourName>#FFF0F8FF</OutlineOneColourName>
+  <OutlineTwoColourName>#FFFF0000</OutlineTwoColourName>
+  <ShadowColourName>#80000000</ShadowColourName>
+  <SampleBackgroundColourName>#FFFFFFFF</SampleBackgroundColourName>
+</PersistableFontDetails>
